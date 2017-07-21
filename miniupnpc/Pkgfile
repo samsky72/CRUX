@@ -1,0 +1,17 @@
+# Description: MiniUPNP library
+# URL: http://miniupnp.free.fr
+# Maintainer: Samsky, samsky72 at gmail dot com
+# Depends on:
+
+name=miniupnpc
+version=2.0
+release=1
+source=(http://miniupnp.free.fr/files/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+	      -DCMAKE_BUILD_TYPE=Release
+	make
+	make DESTDIR=$PKG install
+}
