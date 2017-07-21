@@ -1,0 +1,21 @@
+# Description: Owncloud client
+# URL: https://owncloud.org
+# Maintainer: Samsky, samsky72 at google dot com
+# Depends on: qt5 qtwebkit qtkeychain
+
+name=owncloud-client
+version=2.3.2 
+release=1
+source=(https://github.com/owncloud/client/archive/$version.zip)
+
+build() {
+	cd client-$version
+	cmake -DCMAKE_BUILD_TYPE=Release \
+	      -DCMAKE_INSTALL_PREFIX=/usr \
+	      -DDATA_INSTALL_DIR=/usr/share \
+	      -DSHARE_INSTALL_PREFIX=/usr/share\
+	      -DINCLUDE_INSTALL_DIR=/usr/include\
+	      -DSYSCONF_INSTALL_DIR=/etc
+	make
+	make DESTDIR=$PKG install
+}
