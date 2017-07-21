@@ -1,0 +1,23 @@
+# Description: dc++ client
+# URL: https://github.com/eiskaltdcpp
+# Maintainer: Samsky, samsky72 at gmail dot com
+# Depends on: qt4 bzip2 zlib gettext openssl miniupnpc boost
+
+name=eiskaltdcpp
+version=work
+release=1
+source=(https://github.com/$name/$name/archive/work.zip)
+
+build() {
+	cd $name-$version
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+	      -DCMAKE_BUILD_TYPE=Release \
+	      -DWITH_EXAMPLES=OFF \
+	      -DUSE_QT=ON \
+	      -DUSE_QT5=OFF \
+	      -DUSE_MINIUPNP=ON 
+	      
+	make
+	make DESTDIR=$PKG install
+	rm -r $PKG/usr/share/locale
+}
