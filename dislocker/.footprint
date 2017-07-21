@@ -1,0 +1,17 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+lrwxrwxrwx	root/root	usr/bin/dislocker -> dislocker-fuse
+-rwxr-xr-x	root/root	usr/bin/dislocker-bek
+-rwxr-xr-x	root/root	usr/bin/dislocker-file
+-rwxr-xr-x	root/root	usr/bin/dislocker-fuse
+-rwxr-xr-x	root/root	usr/bin/dislocker-metadata
+drwxr-xr-x	root/root	usr/lib64/
+lrwxrwxrwx	root/root	usr/lib64/libdislocker.so -> libdislocker.so.0.7
+lrwxrwxrwx	root/root	usr/lib64/libdislocker.so.0.7 -> libdislocker.so.0.7.1
+-rwxr-xr-x	root/root	usr/lib64/libdislocker.so.0.7.1
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/dislocker-file.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/dislocker-fuse.1.gz
+lrwxrwxrwx	root/root	usr/share/man/man1/dislocker.1.gz -> dislocker-fuse.1.gz

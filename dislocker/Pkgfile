@@ -1,0 +1,17 @@
+# Description: Software has been designed to read/write to BitLocker encrypted partitions under a Linux system
+# URL: https://travis-ci.org/Aorimn/dislocker
+# Maintainer: Samsky, samsky72 at gmail dot com
+# Depends on: mbedtls fuse
+
+name=dislocker
+version=0.7.1
+release=1
+source=(http://www.hsc.fr/ressources/outils/$name/download/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_BUILD_TYPE=Release
+	make
+	make DESTDIR=$PKG install
+}
