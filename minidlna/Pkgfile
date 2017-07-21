@@ -1,0 +1,23 @@
+# Description: MiniDLNA server
+# URL: https://sourceforge.net/projects/minidlna/
+# Maintainer: Samsky, samsky72 at gmail dot com
+# Depends on: ffmpeg libexif libid3tag libogg libvorbis flac gstreamer gst-plugins-bad gst-plugins-good gst-plugins-base gst-plugins-ugly
+
+name=minidlna
+version=1.2.0
+release=1
+source=(https://netix.dl.sourceforge.net/project/$name/$name/$version/$name-$version.tar.gz \
+	minidlna minidlna.conf)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr --disable-nls
+	make
+	make DESTDIR=$PKG install
+	install -D -m 755 $SRC/minidlna $PKG/etc/rc.d/minidlna
+	install -D -m 644 $SRC/minidlna.conf $PKG/etc/minidlna.conf
+	gzip minidlnad.8
+	gzip minidlna.conf.5
+	install -D -m 644 -t $PKG/usr/share/man/man8/minidlnad.8.gz minidlnad.8.gz
+	install -D -m 644 -t $PKG/usr/share/man/man5/minidlna.conf.5.gz minidlna.conf.5.gz
+}
