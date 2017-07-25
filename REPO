@@ -1,4 +1,5 @@
 d:volumeicon
+d:ttf-terminus
 d:miniupnpc
 d:minidlna
 d:qtkeychain
@@ -8,6 +9,9 @@ d:dislocker
 f:eb3e99adc07ba37593bb5635e134a31c:volumeicon/.md5sum
 f:2f101ee8161fdf7b2a631496943a5300:volumeicon/.footprint
 f:bf28c1631274ab97d5a8ea56bcd839e4:volumeicon/Pkgfile
+f:6f1dc96d4a2b8c159a06d05df617088d:ttf-terminus/.md5sum
+f:8300975aac2de817b2f6976c45fc9b18:ttf-terminus/.footprint
+f:3fd1cb3fab4ffd497ab73ca5956b3b24:ttf-terminus/Pkgfile
 f:b8abf9e68d9cd8069bbc4c0f9832e0e3:miniupnpc/.md5sum
 f:66d2a7bc45a41559a2e2c3f385146707:miniupnpc/.footprint
 f:03a513293467896a3fe0cc9ef7f8543b:miniupnpc/Pkgfile
