@@ -6,6 +6,8 @@ d:qtkeychain
 d:eiskaltdcpp
 d:owncloud-client
 d:dislocker
+d:libiptcdata
+d:rawtherapee
 f:eb3e99adc07ba37593bb5635e134a31c:volumeicon/.md5sum
 f:2f101ee8161fdf7b2a631496943a5300:volumeicon/.footprint
 f:bf28c1631274ab97d5a8ea56bcd839e4:volumeicon/Pkgfile
@@ -32,3 +34,9 @@ f:c6e164426a795baa5bbcf127286f213f:owncloud-client/Pkgfile
 f:7db933aeeba817aa2b5e811ccd98f52e:dislocker/.md5sum
 f:0af82126c83a3bf7d7e893cda8b09380:dislocker/.footprint
 f:b7b1fdb1dfcb5200d86aaa55ee4348a6:dislocker/Pkgfile
+f:9ea7243cb49ece63d30b970272452f78:libiptcdata/.md5sum
+f:cd058f8f5bd01d94f50a18116fe80d9d:libiptcdata/.footprint
+f:513f2cd15906b303536a882f6f657ed0:libiptcdata/Pkgfile
+f:911ec96f2b25e54197a2f44aa8453f99:rawtherapee/.md5sum
+f:826a7847d378732afa81287bcad29457:rawtherapee/.footprint
+f:f0ea52c7429b9f8100f8c3b1503bdd16:rawtherapee/Pkgfile
