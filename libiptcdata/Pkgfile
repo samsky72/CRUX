@@ -1,0 +1,18 @@
+# Description: libiptcdata is a library for manipulating the International Press Telecommunications Council (IPTC) metadata stored within multimedia files such as images
+# URL: http://libiptcdata.sourceforge.net/
+# Maintainer: Samsky, samsky72 at gmail dot com
+# Depends on:
+
+name=libiptcdata
+version=1.0.4
+release=1
+source=(http://downloads.sourceforge.net/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+	--disable-nls
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/gtk-doc/
+}
