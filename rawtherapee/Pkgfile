@@ -1,0 +1,18 @@
+# Description: RawTherapee is a cross-platform raw image processing program
+# URL: http://http://rawtherapee.com/
+# Maintainer: Samsky, samsky72 at gmail dot com
+# Depends on: glibmm gtkmm3 cairomm lcms fftw libiptcdata zlib libjpeg-turbo libcanberra 
+
+name=rawtherapee
+version=5.2
+release=1
+source=(http://rawtherapee.com/shared/source/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -DCMAKE_BUILD_TYPE=Release \
+	      -DCMAKE_INSTALL_PREFIX=/usr
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/doc/rawtherapee
+}
