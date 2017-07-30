@@ -8,6 +8,7 @@ d:owncloud-client
 d:dislocker
 d:libiptcdata
 d:rawtherapee
+d:qt-creator
 f:eb3e99adc07ba37593bb5635e134a31c:volumeicon/.md5sum
 f:2f101ee8161fdf7b2a631496943a5300:volumeicon/.footprint
 f:bf28c1631274ab97d5a8ea56bcd839e4:volumeicon/Pkgfile
@@ -40,3 +41,6 @@ f:513f2cd15906b303536a882f6f657ed0:libiptcdata/Pkgfile
 f:911ec96f2b25e54197a2f44aa8453f99:rawtherapee/.md5sum
 f:826a7847d378732afa81287bcad29457:rawtherapee/.footprint
 f:f0ea52c7429b9f8100f8c3b1503bdd16:rawtherapee/Pkgfile
+f:8b6a9591efb0b0d836500c6c6424a9cc:qt-creator/.md5sum
+f:2eec38cb2ac7ee3d68caac7b877d8814:qt-creator/.footprint
+f:647b070641fcfdf76e84f235f28e3deb:qt-creator/Pkgfile
