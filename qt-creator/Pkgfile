@@ -1,0 +1,16 @@
+# Description: Qt Creator is the cross-platform IDE that makes application and UI development a breeze
+# URL: https://www.qt.io/ide/
+# Maintainer: Samsky, samsky72 at gmail dot com
+# Depends on: qt5
+
+name=qt-creator
+version=4.3.1 
+release=1
+source=(https://download.qt.io/official_releases/qtcreator/4.3/$version/$name-opensource-src-$version.tar.gz)
+
+build() {
+	cd $name-opensource-src-$version
+	qmake-qt5
+	make
+	make INSTALL_ROOT=$PKG/usr install
+}
