@@ -1,0 +1,12 @@
+# Description: audio card configuration for alsa on asus-g750js laptops
+# Maintainer: Samsky, samsky72 at gmail dot com
+# Depends on:
+
+name=alsa-asusg750
+version=1
+release=1
+source=(asound.conf)
+
+build() {
+	install -Dm644 asound.conf $PKG/etc/asound.conf
+}
