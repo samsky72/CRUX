@@ -1,0 +1,24 @@
+# Description: LMMS - Linux Multimedia Studio
+# URL: http://lmms.sourceforge.net/
+# Maintainer: Samsky, samsky 72 at gmail dot com
+# Depends on: cmake qt4 jack-audio-connection-kit fftw xorg-libxft zynaddsubfx
+# Nice to have: libsamplerate fluidsynth
+
+name=lmms
+version=1.2
+release=1
+source=(https://github.com/LMMS/$name/archive/stable-$version.tar.gz)
+
+build() {
+  export QTDIR=/usr/share/qt4
+  cd $name-stable-$version
+  mkdir build
+  cd build
+  cmake ../ -DCMAKE_INSTALL_PREFIX=/usr
+  make
+  make DESTDIR=$PKG install
+  mv $PKG/usr/share/man $PKG/usr
+  rm -rf $PKG/usr/share/{locale,mime}
+  rm -rf $PKG/usr/share/lmms/locale
+}
+
