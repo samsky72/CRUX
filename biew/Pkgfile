@@ -1,0 +1,18 @@
+# Description: biew hex editor
+# URL: http://beye.sourceforge.net/
+# Maintainer: Samsky, samsky72 at gmail dot com
+# Depends on: ncurses
+
+name=biew
+version=610
+release=1
+source=(http://downloads.sourceforge.net/beye/$name-$version-src.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr --enable-curses 
+	make
+	make -B DESTDIR=$PKG install
+	rm $PKG/usr/share/biew/xlt/readme
+	
+}
