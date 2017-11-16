@@ -13,6 +13,7 @@ d:alsa-asusg750
 d:awesome
 d:libiptcdata
 d:miniupnpc
+d:biew
 f:a492ba1cf97cbfa3600e9c3e17d096a3:lmms/.md5sum
 f:d671e8ceaa0ed7856bd0098cbac4574b:lmms/.footprint
 f:ce837176328f66ef03b75b4ec39a1dab:lmms/Pkgfile
@@ -61,3 +62,6 @@ f:513f2cd15906b303536a882f6f657ed0:libiptcdata/Pkgfile
 f:b8abf9e68d9cd8069bbc4c0f9832e0e3:miniupnpc/.md5sum
 f:66d2a7bc45a41559a2e2c3f385146707:miniupnpc/.footprint
 f:03a513293467896a3fe0cc9ef7f8543b:miniupnpc/Pkgfile
+f:d240305203568fea7d1818bca435b27f:biew/.md5sum
+f:e5d4bd9d4a9018503f4cb9ae3de38039:biew/.footprint
+f:211b831df5f383de64a5cc397384d99b:biew/Pkgfile
