@@ -1,0 +1,18 @@
+# Description: Realtime software synthesizer for Linux
+# URL:         http://zynaddsubfx.sourceforge.net/
+# Maintainer:  Samsky, samsky72 at gmail dot com
+# Depends on:  fltk, fftw, jack, mxml, liblo
+
+name=zynaddsubfx
+version=3.0.1
+release=1
+source=(https://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.bz2)
+
+build() {
+    cd $name-$version
+    cmake -DCMAKE_INSTALL_PREFIX=/usr 
+    make 
+    make install DESTDIR=$PKG
+    install -d $PKG/usr/share/zynaddsubfx
+    rm -rf $PKG/usr/share/doc/zynaddsubfx
+}
