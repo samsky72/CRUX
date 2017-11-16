@@ -1,6 +1,8 @@
+d:lmms
 d:volumeicon
 d:ttf-terminus
 d:rawtherapee
+d:zynaddsubfx
 d:dislocker
 d:owncloud-client
 d:qtkeychain
@@ -11,6 +13,9 @@ d:alsa-asusg750
 d:awesome
 d:libiptcdata
 d:miniupnpc
+f:a492ba1cf97cbfa3600e9c3e17d096a3:lmms/.md5sum
+f:d671e8ceaa0ed7856bd0098cbac4574b:lmms/.footprint
+f:ce837176328f66ef03b75b4ec39a1dab:lmms/Pkgfile
 f:eb3e99adc07ba37593bb5635e134a31c:volumeicon/.md5sum
 f:2f101ee8161fdf7b2a631496943a5300:volumeicon/.footprint
 f:bf28c1631274ab97d5a8ea56bcd839e4:volumeicon/Pkgfile
@@ -20,6 +25,9 @@ f:3fd1cb3fab4ffd497ab73ca5956b3b24:ttf-terminus/Pkgfile
 f:911ec96f2b25e54197a2f44aa8453f99:rawtherapee/.md5sum
 f:826a7847d378732afa81287bcad29457:rawtherapee/.footprint
 f:f0ea52c7429b9f8100f8c3b1503bdd16:rawtherapee/Pkgfile
+f:6a4f5aed743a4b01700efe98c115bc4a:zynaddsubfx/.md5sum
+f:32b49b2de360f37f2aa80f3276504f35:zynaddsubfx/.footprint
+f:325729e5a115c367864282b0dd24372a:zynaddsubfx/Pkgfile
 f:7db933aeeba817aa2b5e811ccd98f52e:dislocker/.md5sum
 f:0af82126c83a3bf7d7e893cda8b09380:dislocker/.footprint
 f:b7b1fdb1dfcb5200d86aaa55ee4348a6:dislocker/Pkgfile
