@@ -1,0 +1,29 @@
+# Description: Compiz window manager
+# URL: http://www.compiz.org/
+# Maintainer: Samsky, samsky72 at gmail dot com
+# Packager:
+# Depends on: libwnck-gtk3 glibmm pygtk pyrex
+
+name=compiz
+version=0.9.13.1
+release=1
+source=(https://launchpad.net/$name/0.9.13/$version/+download/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	mkdir build
+	cd build
+	cmake .. -DCMAKE_INSTALL_PREFIX=/usr \
+	      -DCMAKE_BUILD_TYPE=Release \
+	      -DBUILD_GNOME=OFF \
+	      -DBUILD_KDE=OFF \
+	      -DBUILD_METACITY=OFF \
+	      -DBUILD_GTK=OFF \
+	      -DBUILD_TESTING=OFF
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/locale
+	
+	      
+	
+}
