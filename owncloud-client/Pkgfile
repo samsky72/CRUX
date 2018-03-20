@@ -4,9 +4,9 @@
 # Depends on: qt5 qtwebkit qtkeychain
 
 name=owncloud-client
-version=2.3.2 
+version=2.4.1 
 release=1
-source=(https://github.com/owncloud/client/archive/$version.zip)
+source=(https://github.com/owncloud/client/archive/$version/$name-v$version.zip)
 
 build() {
 	cd client-$version
