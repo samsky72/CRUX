@@ -75,6 +75,6 @@ f:0a1e4850aa205760c47eeaeca7e01436:compiz/Pkgfile
 f:b8abf9e68d9cd8069bbc4c0f9832e0e3:miniupnpc/.md5sum
 f:66d2a7bc45a41559a2e2c3f385146707:miniupnpc/.footprint
 f:03a513293467896a3fe0cc9ef7f8543b:miniupnpc/Pkgfile
-f:8b6a9591efb0b0d836500c6c6424a9cc:qt-creator/.md5sum
-f:2eec38cb2ac7ee3d68caac7b877d8814:qt-creator/.footprint
-f:647b070641fcfdf76e84f235f28e3deb:qt-creator/Pkgfile
+f:00bd7879950c18c30c3d8c69648d3bae:qt-creator/.md5sum
+f:d98b23a18ab1836311bd821b78b7e164:qt-creator/.footprint
+f:173c5e0475a1220b09558b29d0350a83:qt-creator/Pkgfile
