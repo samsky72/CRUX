@@ -1,0 +1,15 @@
+# Description: FDUPES is a program for identifying duplicate files residing within specified directories
+# URL:https://github.com/adrianlopezroche/fdupes
+# Maintainer: Samsky, samsky72 at gmail dot com
+# Depends on:
+
+name=fdupes
+version=1.6.1
+release=1
+source=https://github.com/adrianlopezroche/$name/archive/v$version/$name-v$version.tar.gz
+
+build() {
+	cd $name-$version
+	make PREFIX=/usr DESTDIR=$PKG install
+	
+}
