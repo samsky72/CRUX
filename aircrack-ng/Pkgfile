@@ -1,0 +1,19 @@
+# Description: Aircrack next generation
+# URL: http://www.aircrack-ng.org/
+# Maintainer: Samsky, samsky72 at gmail dot com 
+# Depends on: openssl
+
+
+name=aircrack-ng
+version=1.2
+release=1
+source=(http://download.aircrack-ng.org/$name-$version.tar.gz)
+
+build() {
+  cd $name-$version
+  ./autogen.sh
+  ./configure  --prefix=/usr \
+               --mandir=/usr/share/man
+  make
+  make DESTDIR=$PKG install
+}
