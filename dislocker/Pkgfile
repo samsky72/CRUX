@@ -6,7 +6,7 @@
 name=dislocker
 version=0.7.1
 release=1
-source=(http://www.hsc.fr/ressources/outils/$name/download/$name-$version.tar.gz)
+source=(https://github.com/Aorimn/$name/archive/v$version/$name-v$version.tar.gz)
 
 build() {
 	cd $name-$version
