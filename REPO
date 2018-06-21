@@ -9,6 +9,7 @@ d:lmms
 d:qt-creator
 d:dislocker
 d:miniupnpc
+d:guvcview
 d:pyrex
 d:zynaddsubfx
 d:alsa-asusg750
@@ -52,6 +53,10 @@ f:d5780e6cf8ab8059e72eda0014992262:dislocker/.md5sum
 f:66d2a7bc45a41559a2e2c3f385146707:miniupnpc/.footprint
 f:03a513293467896a3fe0cc9ef7f8543b:miniupnpc/Pkgfile
 f:b8abf9e68d9cd8069bbc4c0f9832e0e3:miniupnpc/.md5sum
+f:677de8cb33332811ba3710d9fee3a3f4:guvcview/ffmpeg3.patch
+f:e776578aacffde579b1d90f28bfede9c:guvcview/.footprint
+f:9f61af2a63e1eac00f99319f7bb67bbc:guvcview/Pkgfile
+f:6b59606b321a450bf223701997d36f29:guvcview/.md5sum
 f:99119151cf1b568252a381b043e67bdb:pyrex/.footprint
 f:24f74545852cb3dd4d927df0a9b64959:pyrex/Pkgfile
 f:6de52fe2f70e2f1066275f9074dad692:pyrex/.md5sum
