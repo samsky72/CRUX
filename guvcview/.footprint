@@ -1,0 +1,59 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/guvcview
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/guvcview-2/
+drwxr-xr-x	root/root	usr/include/guvcview-2/libgviewaudio/
+-rw-r--r--	root/root	usr/include/guvcview-2/libgviewaudio/gviewaudio.h
+drwxr-xr-x	root/root	usr/include/guvcview-2/libgviewencoder/
+-rw-r--r--	root/root	usr/include/guvcview-2/libgviewencoder/gviewencoder.h
+drwxr-xr-x	root/root	usr/include/guvcview-2/libgviewrender/
+-rw-r--r--	root/root	usr/include/guvcview-2/libgviewrender/gviewrender.h
+drwxr-xr-x	root/root	usr/include/guvcview-2/libgviewv4l2core/
+-rw-r--r--	root/root	usr/include/guvcview-2/libgviewv4l2core/gview.h
+-rw-r--r--	root/root	usr/include/guvcview-2/libgviewv4l2core/gviewv4l2core.h
+drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/libgviewaudio-2.0.so.2 -> libgviewaudio-2.0.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libgviewaudio-2.0.so.2.0.0
+-rw-r--r--	root/root	usr/lib/libgviewaudio.a
+-rwxr-xr-x	root/root	usr/lib/libgviewaudio.la
+lrwxrwxrwx	root/root	usr/lib/libgviewaudio.so -> libgviewaudio-2.0.so.2.0.0
+lrwxrwxrwx	root/root	usr/lib/libgviewencoder-2.0.so.2 -> libgviewencoder-2.0.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libgviewencoder-2.0.so.2.0.0
+-rw-r--r--	root/root	usr/lib/libgviewencoder.a
+-rwxr-xr-x	root/root	usr/lib/libgviewencoder.la
+lrwxrwxrwx	root/root	usr/lib/libgviewencoder.so -> libgviewencoder-2.0.so.2.0.0
+lrwxrwxrwx	root/root	usr/lib/libgviewrender-2.0.so.2 -> libgviewrender-2.0.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libgviewrender-2.0.so.2.0.0
+-rw-r--r--	root/root	usr/lib/libgviewrender.a
+-rwxr-xr-x	root/root	usr/lib/libgviewrender.la
+lrwxrwxrwx	root/root	usr/lib/libgviewrender.so -> libgviewrender-2.0.so.2.0.0
+lrwxrwxrwx	root/root	usr/lib/libgviewv4l2core-2.0.so.2 -> libgviewv4l2core-2.0.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libgviewv4l2core-2.0.so.2.0.0
+-rw-r--r--	root/root	usr/lib/libgviewv4l2core.a
+-rwxr-xr-x	root/root	usr/lib/libgviewv4l2core.la
+lrwxrwxrwx	root/root	usr/lib/libgviewv4l2core.so -> libgviewv4l2core-2.0.so.2.0.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libgviewaudio.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/libgviewencoder.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/libgviewrender.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/libgviewv4l2core.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/appdata/
+-rw-r--r--	root/root	usr/share/appdata/guvcview.appdata.xml
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/guvcview.desktop
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/guvcview.1.gz
+drwxr-xr-x	root/root	usr/share/menu/
+-rw-r--r--	root/root	usr/share/menu/guvcview
+drwxr-xr-x	root/root	usr/share/pixmaps/
+drwxr-xr-x	root/root	usr/share/pixmaps/guvcview/
+-rw-r--r--	root/root	usr/share/pixmaps/guvcview/audio_controls.png
+-rw-r--r--	root/root	usr/share/pixmaps/guvcview/camera.png
+-rw-r--r--	root/root	usr/share/pixmaps/guvcview/close.png
+-rw-r--r--	root/root	usr/share/pixmaps/guvcview/guvcview.png
+-rw-r--r--	root/root	usr/share/pixmaps/guvcview/image_controls.png
+-rw-r--r--	root/root	usr/share/pixmaps/guvcview/movie.png
+-rw-r--r--	root/root	usr/share/pixmaps/guvcview/video_controls.png

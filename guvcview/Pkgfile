@@ -1,0 +1,19 @@
+# Description:	GTK based program to capture from webcams
+# URL:		http://guvcview.berlios.de/
+# Maintainer:	Samsky, samsky72 at gmail dot com 
+# Depends on:	gtk3 portaudio v4l-utils
+
+name=guvcview
+version=2.0.5
+release=1
+source=(http://prdownloads.sf.net/$name/$name-src-$version.tar.gz \
+	ffmpeg3.patch)
+
+build() {
+	cd $name-src-$version
+	patch -p1 -i $SRC/ffmpeg3.patch
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/{doc,locale}
+}
